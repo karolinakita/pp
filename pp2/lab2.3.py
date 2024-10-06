@@ -1,0 +1,1 @@
+print("Będę uważała na zajęciach Pythona \n" *100)
