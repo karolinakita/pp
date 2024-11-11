@@ -13,5 +13,3 @@ if number ** (1/2) % 1 == 0:
 else:
     str1 = "Nie"
     str2 = "nie"
-
-print(str1 + ", pierwiastek kwadratowy z liczby " + str(number) + )
