@@ -12,18 +12,15 @@ suma_nieparzystych = 0
 # print(suma_parzystych)
 # print(suma_nieparzystych)
 
-enter = str("")
-liczba = int(input("podaj liczbę: "))
-while liczba:
-    liczba = int(input("podaj kolejną liczbę: "))
-    if liczba % 2 == 0:
-        suma_parzystych += liczba
-    elif liczba % 2 != 0:
-        suma_nieparzystych += liczba
-    elif int(""):
+while True:
+    liczba = input("podaj liczbę: ")
+    if liczba == "":
         break
+    liczba_1 = int(liczba)
+    if liczba_1 % 2 == 0:
+        suma_parzystych += liczba_1
+    elif liczba_1 % 2 != 0:
+        suma_nieparzystych += liczba_1
 
-
-
-print(suma_parzystych)
-print(suma_nieparzystych)
+print('SUma liczb parzystych: ', suma_parzystych)
+print('Suma liczb nieparzystych: ', suma_nieparzystych)
