@@ -1,15 +1,14 @@
-print("Hello World!")
-print("Hello World!")
-print("Hello World!")
-print("Hello World!")
+numbers = []
+counter = 1
 
-print("Hello World!")
-print("Hello World!")
-print("Hello World!")
-print("Hello World!")
-print("Hello World!")
-print("Hello World!")
-print("Hello World!")
-print("Hello World!")
+while True:
+    if counter > 5:
+        break
+    try:
+        number = int(input("Podaj liczbę całkowtitą "))
+        numbers.append(number)
+        counter += 1
+    except:
+        print("To nie jest liczba całkowta")
 
-print("Hello World!")
+print(numbers)
