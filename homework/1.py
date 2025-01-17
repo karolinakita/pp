@@ -22,5 +22,5 @@ while True:
     elif liczba_1 % 2 != 0:
         suma_nieparzystych += liczba_1
 
-print('SUma liczb parzystych: ', suma_parzystych)
+print('Suma liczb parzystych: ', suma_parzystych)
 print('Suma liczb nieparzystych: ', suma_nieparzystych)
